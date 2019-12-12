@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"showpop",
+				"showPopUp"
+			],
+			[
+				"Showpop",
+				"showPopUp"
+			],
+			[
+				"Input",
+				"InputField\t[class]"
+			],
+			[
+				"Keyboard",
+				"KeyboardSize"
+			],
+			[
+				"XmlN",
+				"XmlNodeList"
+			],
+			[
+				"Inn",
+				"InnerText"
+			],
+			[
+				"decrup",
+				"decryptedOut"
+			],
+			[
+				"Inne",
+				"InnerXml"
+			],
+			[
+				"getTra",
+				"getTransaccion"
+			],
+			[
+				"decrypte",
+				"decryptedOut"
+			],
+			[
+				"decyp",
+				"decryptedOut"
+			],
+			[
+				"XmlNode",
+				"XmlNodeList"
+			],
+			[
+				"seed",
+				"seed128"
+			],
+			[
+				"AES",
+				"AES128"
+			],
+			[
+				"keyboar",
+				"keyboardOffset"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"targetPos",
+				"targetPos"
+			],
+			[
+				"targett",
+				"targetTrans"
+			],
+			[
+				"Deb",
+				"Debug.Log\t*(message)"
+			],
+			[
+				"FindOb",
+				"FindObjectsOfType\tObject.*(type)"
+			],
+			[
+				"UNITY_",
+				"UNITY_EDITOR"
+			],
+			[
+				"Keyboar",
+				"KeyboardSize"
+			],
+			[
+				"keyboa",
+				"keyboardOffset"
+			],
+			[
+				"mit",
+				"MITEncrypt"
+			],
+			[
+				"reques",
+				"requestBase64"
+			],
+			[
+				"request",
+				"requestBase64"
+			],
+			[
+				"encr",
+				"encrypInAES128"
+			],
+			[
+				"HideIn",
+				"HideInInspector\t[class]"
+			],
+			[
+				"RES",
+				"RESULTADO"
+			],
+			[
+				"RE",
+				"RESPUESTA"
+			],
+			[
+				"RespAp",
+				"RespAPI"
+			],
+			[
+				"resp",
+				"respuestas"
+			],
+			[
+				"Coment",
+				"ComentarioField"
+			],
+			[
+				"Json",
+				"JsonUtility.ToJson\t*(obj)"
+			],
+			[
+				"PREG",
+				"PREG_ID"
+			],
+			[
+				"Pregun",
+				"PREGUNTAS"
+			],
+			[
+				"preg",
+				"preg_id"
+			],
+			[
+				"Preun",
+				"PreguntasRef"
+			],
+			[
+				"pregunta",
+				"PreguntasRef"
+			],
+			[
+				"DET",
+				"DETENCUESTA_ID"
+			],
+			[
+				"GetInt",
+				"GetInt\tPlayerPrefs.*(key, defaultValue)"
+			],
+			[
+				"Respuesta",
+				"RespuestaJ"
+			],
+			[
+				"Startc",
+				"StartCoroutine\tMonoBehaviour.*(routine)"
+			],
+			[
+				"Detop",
+				"DETOPCION_ID"
+			],
+			[
+				"Respuestas",
+				"RESPUESTAS"
+			],
+			[
+				"forea",
+				"foreach\tForEach"
+			],
+			[
+				"RESP",
+				"RESPUESTAS"
+			],
+			[
+				"PRE",
+				"PREGUNTAS"
+			],
+			[
+				"Respues",
+				"RespuestasArrJ"
+			],
+			[
+				"Seria",
+				"Serializable\t[class]"
+			],
+			[
+				"Pregunta",
+				"PreguntasRef"
+			],
+			[
+				"Mono",
+				"MonoBehaviour\t[class]"
+			],
+			[
+				"GetCompo",
+				"GetComponent\tComponent.*(type)"
+			],
+			[
+				"Insta",
+				"Instantiate\tObject.*<T>(original)"
+			],
+			[
+				"Game",
+				"GameObject\t[class]"
+			],
+			[
+				"Sys",
+				"System"
+			],
+			[
+				"i",
+				"inc\t#include \"…\""
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andreperes/Documents/Programming/Unity 5.5.0/Spiff/Assets/Scripts/Static/Andre.cs",
+			"settings":
+			{
+				"buffer_size": 3081,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Scripts/LogIn.cs",
+			"settings":
+			{
+				"buffer_size": 10623,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Scripts/ViewsManager.cs",
+			"settings":
+			{
+				"buffer_size": 20835,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Scripts/Factura.cs",
+			"settings":
+			{
+				"buffer_size": 14777,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 34 files for \"changeAvisoTxt\" (case sensitive)\n\n/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/Factura.cs:\n  194  \t\t\tfacturaInfoFilled = true;\n  195  \n  196: \t\t\tGetComponent<ViewsManager> ().changeAvisoTxt (0);\n  197  \t\t\tGetComponent<ViewsManager> ().showPopUp (9);\n  198  \t\t}\n\n/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/ViewsManager.cs:\n   94  \t}\n   95  \n   96: \tpublic void changeAvisoTxt (int o){\n   97  \t\tstring s;\n   98  \n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Scripts/WebPayView.cs",
+			"settings":
+			{
+				"buffer_size": 31702,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git https://github.com/UnicornForest/Unity3D.git",
+			"https://github.com/UnicornForest/Unity3D.git",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/Users/andreperes/Desktop/untitled.html",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/AndreScripts.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/TecladoManager.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/Crack/Assets/Scripts/TecladoManager.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Plugin Kevin/PluginCredorApps/Scripts/ScriptFotosNativo.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/TutorialView.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/Factura.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/WebPayView.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/clsAES128.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/Crack/Assets/Scripts/CrackRequest.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/clsAESWebPay.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/CrackCanvas/Assets/SamplesResources/CloudReco/Scripts/ContentManager.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/OpcionMultiple.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/Comentario.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.5.0/Dioses/Assets/Scripts/DiosesController.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/ViewsManager.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/LogIn.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/Scripts/Encuesta.cs",
+		"/Users/andreperes/Documents/Programming/Unity 5.4.1/MiArquitecto/Assets/MiArquitecto.sublime-project",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/KIA RA/Assets/Manager.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/MiArquitecto/Assets/Scripts/WebPayView.cs",
+		"/tmp/subl stdin 7XY7i4.txt",
+		"/tmp/subl stdin H5KbSf.txt",
+		"/tmp/subl stdin YhqS8k.txt",
+		"/tmp/subl stdin GgHvvK.txt",
+		"/Users/macNcheese/",
+		"/Applications/SublimeRunner.sh",
+		"/Applications/",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/MiArquitecto/Assets/Scripts/Registrar.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Crack 1.01/Assets/Scripts/CrackInitCanvas.cs",
+		"/Users/macNcheese/Documents/Programación/Web/CrackTests/Clara info.txt",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/CrackCommandLine/ShellScript.sh",
+		"/Users/macNcheese/Desktop/Test/Podfile",
+		"/Users/macNcheese/Desktop/Test/Alamofire.Podfile",
+		"/Users/macNcheese/Documents/Unreal Projects/ArquiLevel/Intermediate/Config/CoalescedSourceConfigs/Lightmass.ini",
+		"/Users/macNcheese/Documents/Unreal Projects/ArquiLevel/Config/DefaultEngine.ini",
+		"/Users/macNcheese/Documents/Unreal Projects/ArquiLevel/Config/DefaultEditor.ini",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/MiArquitecto/Assets/Scripts/LogIn.cs",
+		"/Users/macNcheese/Documents/Programación/Web/CrackTests/triangle.json",
+		"/Users/macNcheese/Documents/Programación/Web/CrackTests/index.php",
+		"/Users/macNcheese/Andre.json",
+		"/Users/macNcheese/Documents/Programación/Web/CrackTests/AltoLagoBuilding.json",
+		"/Users/macNcheese/Documents/Programación/Web/CrackTests/convert_to_threejs.py",
+		"/Users/macNcheese/Downloads/fb66e513f715f2328717d7a5d2e09590z/untitled-scene.json",
+		"/Users/macNcheese/Library/Application Support/Inmersys/Crack/crackLocalContent/favs.json",
+		"/Volumes/Proyectos-1/2Concluidos/BBI RA/Programación/Unity 5.3.3 f1/BBI AR/Assets/Scripts/TrackableList.cs",
+		"/Users/macNcheese/Downloads/SimpleUDTHandler.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Android Interceramic CIHAC - Portrait - 360/Assets/Scripts/LogIn.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/ViewsManager.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/View.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/RotateOnSwipe.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/Registrar.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/RegisterResponse.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/LogInResponse.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/LogIn.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/LoadingManager.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/InteractiveItem.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/GoToGallery.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/FirstTimeRunning.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/FBLogin.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/Espacios.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/Encuesta.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/DescPanelController.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/BackButtons.cs",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/Ambientes.cs",
+		"/Users/macNcheese/Documents/Programación/holaMundo.cpp",
+		"/Users/macNcheese/Documents/Programación/Unity 5.4.1/Interceramic CIHAC/Assets/Scripts/WorldButtons.cs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"//Precio",
+			"tokenProp",
+			"changeAvisoTxt",
+			"//Precio",
+			"claveApp",
+			"cantidad",
+			"getBonificacion",
+			"cantidad",
+			"changeAvisoTxt",
+			"changeAvisoImg",
+			"shouldCheckTrans",
+			"another",
+			"deltaTrans",
+			");\n",
+			"localPosition",
+			"webView",
+			"showIfActive",
+			"isActive",
+			"Update",
+			"popIsShown",
+			"token",
+			"cantidad",
+			"linkFac",
+			"cleanLink",
+			"linkFactura",
+			"postInfoFactura",
+			"setFacturaValues",
+			"Colonia",
+			"\t\t\n",
+			"irra",
+			"NumHemisphereSample"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"position"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andreperes/Documents/Programming/Unity 5.5.0/Spiff/Assets/Scripts/Static/Andre.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Scripts/LogIn.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6733,
+								6733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Scripts/ViewsManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5282,
+								5282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 746.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Scripts/Factura.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7987,
+								7987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										234,
+										248
+									],
+									[
+										456,
+										470
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "Scripts/WebPayView.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8901,
+								8901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4651.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.712337493896,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MiArquitecto.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

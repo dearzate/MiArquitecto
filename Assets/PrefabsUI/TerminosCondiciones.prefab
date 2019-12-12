@@ -1,0 +1,792 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &101112
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22431116}
+  - 222: {fileID: 22242014}
+  - 114: {fileID: 11473818}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &107402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22476378}
+  - 114: {fileID: 11448088}
+  - 222: {fileID: 22273550}
+  - 114: {fileID: 11466244}
+  - 114: {fileID: 11462548}
+  m_Layer: 5
+  m_Name: TerminosCondiciones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &133118
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22459900}
+  - 114: {fileID: 11411564}
+  - 114: {fileID: 11457114}
+  - 114: {fileID: 11468902}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &142744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22497482}
+  - 222: {fileID: 22299564}
+  - 114: {fileID: 11456818}
+  - 114: {fileID: 11403702}
+  - 114: {fileID: 11499682}
+  m_Layer: 5
+  m_Name: Aceptar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22461028}
+  - 114: {fileID: 11418242}
+  - 222: {fileID: 22224524}
+  - 114: {fileID: 11419560}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193924
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22421150}
+  - 222: {fileID: 22278954}
+  - 114: {fileID: 11496962}
+  - 114: {fileID: 11441246}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22456610}
+  - 222: {fileID: 22252226}
+  - 114: {fileID: 11418746}
+  - 114: {fileID: 11483096}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11403702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 0.21323532, b: 0.21323532, a: 1}
+    m_HighlightedColor: {r: 0.8455882, g: 0.16165657, b: 0.16165657, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 11456818}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: esconderTerminos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &11411564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de8722c5a13d94740bb1e2fccf7c23cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11418242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!114 &11418746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: ca00f177343d34607b32fa464570ea99, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11419560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11441246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: 10500
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!114 &11448088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 22459900}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &11456818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11457114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1297475563, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 50
+    m_Right: 50
+    m_Top: 50
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 0
+--- !u!114 &11462548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d960339fa614069b5b96bb440db091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagToShow: 0
+  mainView: 0
+  childrenViews: []
+  activeView: 0
+  lastView: 0
+--- !u!114 &11466244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11468902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &11473818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Aceptar
+--- !u!114 &11483096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: 200
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!114 &11496962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "<b><size=50>T\xC9RMINOS Y CONDICIONES</size></b>\n\n<b>CONDICIONES GENERALES</b>\n\nLa
+    informaci\xF3n que nos proporcione ser\xE1 tratada en forma confidencial, por
+    lo que no ser\xE1 difundida o transmitida a terceros ajenos a la transacci\xF3n,
+    salvo que Usted nos d\xE9 su autorizaci\xF3n expresa o nos sea requerida por autoridad
+    competente.\nInterceramic utilizar\xE1 los elementos t\xE9cnicos disponibles para
+    brindar seguridad y confidencialidad a la informaci\xF3n que nos proporcione.\nPonemos
+    a su disposici\xF3n nuestro aviso de privacidad en la siguiente liga: http://interceramic.com/aviso-privacidad\n\n<b>CONDICIONES
+    DE ENTREGA A DOMICILIO</b>\n\nEn caso que Usted decida recoger el material en
+    la tienda o centro de distribuci\xF3n, no nos hacemos responsables por las condiciones
+    del material no recogido una vez que hayan transcurrido 72 horas a partir de la
+    hora de la facturaci\xF3n. Despu\xE9s de este periodo se cobrar\xE1 un 10% mensual
+    por almacenamiento sobre el monto total de los productos no entregados.\nEl material
+    ser\xE1 entregado a su solicitud conforme la fecha que haya elegido al momento
+    de registrar su compra, sin tener una hora espec\xEDfica (puede ser entre las
+    8:00 hrs. y las 19:00 hrs. de lunes a viernes y s\xE1bados de 8:00 hrs a 14:00
+    hrs).\nDe no haber quien reciba el material en el domicilio y fecha se\xF1alado
+    por Usted, nuestro personal dejar\xE1 un aviso de visita con el fin de que Usted
+    se comunique al departamento de Servicio al Cliente para reprogramar su embarque.
+    Esto tendr\xE1 un costo extra por maniobra (se aplicar\xE1 la tarifa vigente)
+    salvo que Usted nos notifique que pasar\xE1 por el material al centro de distribuci\xF3n.\nEn
+    caso de re-entrega a su domicilio, el embarque ser\xE1 programado nuevamente en
+    la fecha disponible m\xE1s pr\xF3xima a partir de su llamada y despu\xE9s de que
+    haya realizado el pago extra de esta nueva maniobra que podr\xE1 cubrir en la
+    sucursal m\xE1s cercana. El comprobante de este pago deber\xE1 mostrarse en el
+    momento de la entrega del material.\nSi existe la posibilidad de que Usted no
+    pueda estar presente para recibir el material, es importante que especifique en
+    la Indicaciones para Entrega, el o los nombres de las personas autorizadas para
+    recibirlo, para lo cual es indispensable presentar una identificaci\xF3n oficial
+    personal vigente (esta medida es por su propia seguridad). En caso contrario NO
+    se entregar\xE1 el producto y se generar\xE1 una re-entrega, a cargo del cliente
+    (se le aplicar\xE1 la tarifa vigente).\nEn el caso de operaciones que generen
+    un saldo a favor para el cliente, el importe del mismo se ver\xE1 acreditado en
+    su cuenta en el periodo que el banco emisor de la tarjeta establezca en sus pol\xEDticas.
+    Favor de consultar las pol\xEDticas vigentes del banco emisor de su tarjeta.\nLa
+    entrega de material se har\xE1 bajo lo siguiente:\nEn Casas\nEn la cochera o primer
+    cuarto de la casa \xFAnicamente, siempre y cuando existan condiciones de seguridad
+    correspondientes.\nEn departamentos\nSe entregar\xE1 hasta un tercer nivel, contando
+    a pie de cami\xF3n como primer nivel sin cargo adicional.\nEn cualquier nivel
+    sin costo adicional siempre y cuando exista y se autorice el uso de elevador de
+    carga, siendo responsabilidad del cliente cualquier falla o descompostura que
+    pueda surgir.\nA partir del cuarto nivel en delante (sin elevador de carga) se
+    entregar\xE1 con cargo extra (se le aplicar\xE1 la tarifa vigente).\nEn Obras
+    de construcci\xF3n\nSin excepci\xF3n alguna se entregar\xE1 a pie de cami\xF3n
+    (esta medida de seguridad es para no exponer la integridad f\xEDsica de nuestro
+    personal).\nEn el caso de que la entrega requiera de maniobras extra a cargo del
+    cliente, esta s\xF3lo abarcar\xE1 arrastrar hasta un m\xE1ximo de 30 metros a
+    partir de pie de cami\xF3n o subir a m\xE1s de un tercer nivel, pero no ambas
+    maniobras. Se deber\xE1 marcar las maniobras extras en las Indicaciones para Entrega
+    (se le aplicar\xE1 la tarifa vigente).\nEn el caso de que falte material, que
+    llegue roto o que no coincida con la factura, es indispensable que anote el detalle
+    en la remisi\xF3n que lleva el chofer para que se le pueda reponer posteriormente,
+    en caso contrario no proceder\xE1 ninguna reposici\xF3n. Tendr\xE1 72 horas para
+    regresar y reportar cualquier anomal\xEDa (s\xF3lo aplica para bases) a partir
+    de la hora de entrega que marque la revisi\xF3n; transcurrido este plazo, no se
+    aceptar\xE1n cambios de material.\nEs importante que la persona que reciba el
+    material verifique que \xE9ste se encuentre en buen estado. Tendr\xE1 72 horas
+    para reportar cualquier anomal\xEDa (s\xF3lo aplica para bases) a partir de la
+    hora de entrega que marque la revisi\xF3n; transcurrido este plazo, no se aceptar\xE1n
+    cambios de material.\nEs responsabilidad del cliente revisar que el modelo, color
+    y formato corresponda a los que aparecen en la factura de acuerdo a lo que solicit\xF3.\nLos
+    muebles de ba\xF1o, de cocina, plomer\xEDa, block de vidrio, espejos y piezas
+    especiales, tales como listeles y decorados, deben revisarse individualmente en
+    el momento de la entrega ya que no se aceptar\xE1n reclamaciones de cambio posteriores
+    a la firma de la remisi\xF3n. El material antes mencionado que no cumpla con las
+    condiciones de entrega deber\xE1 ser devuelto en el momento al personal de reparto
+    y as\xED dejarlo asentado en la remisi\xF3n que lleva el chofer.\nSi Usted solicit\xF3
+    entrega a domicilio e Interceramic no puede entregar la mercanc\xEDa por razones
+    de no encontrarlo en ese domicilio o a la persona autorizada para recibir el material,
+    \xE9ste no podr\xE1 ser almacenado por m\xE1s de 30 d\xEDas naturales en las bodegas
+    de Interceramic. Despu\xE9s de este periodo se cobrar\xE1 un 10 % mensual sobre
+    el monto total de los productos no entregados. Cumplido este plazo Interceramic
+    no se compromete a respetar la existencia ni el buen estado del producto, as\xED
+    como tampoco se respetar\xE1n precios, tonos o calibres, ni el saldo a favor,
+    ya que de este saldo se cobrar\xE1 el 10% por almacenamiento antes mencionado.\nNo
+    hay cambios ni devoluciones en adhesivos, boquillas, productos de instalaci\xF3n
+    y de limpieza, productos de l\xEDneas descontinuadas, promociones y pedido especiales
+    (en cualquiera de sus tipos y/o presentaciones).\n\n<b>GARANT\xCDA</b>\n\nUSTED
+    SE DA POR ENTERADO QUE PARA HACER V\xC1LIDA LA GARANT\xCDA DE LOS PISOS Y AZULEJOS
+    INTERCERAMIC DE PRIMERA CALIDAD, LA INSTALACI\xD3N DEBER\xC1 REALIZARSE CON MATERIALES
+    DE INSTALACI\xD3N INTERCERAMIC, SIGUIENDO LAS INSTRUCCIONES ESCRITAS EN EL EMPAQUE
+    DE CADA PRODUCTO.\n\nAsimismo, se da por enterado de que para ejercer la garant\xEDa
+    de los pisos y azulejos Interceramic de primera calidad deber\xE1n estar instalados
+    con las juntas de acuerdo a las instrucciones de instalaci\xF3n. En el caso de
+    material rectificado la separaci\xF3n entre loseta y loseta deber\xE1 ser de m\xEDnimo
+    2 mil\xEDmetros y de 6 mil\xEDmetros para el material no rectificado.\n\nEn caso
+    de problemas de adherencia de los pisos y azulejos Interceramic la garant\xEDa
+    proceder\xE1 siempre y cuando no sea derivada de una instalaci\xF3n defectuosa.
+    No permita que adulteren o afecten el contenido y rendimiento del producto (mezclar
+    con cemento u otro material).\n\nLa garant\xEDa solo aplica para productos de
+    l\xEDnea vigentes a la fecha de la compra.\n\nPara poder hacer efectiva cualquier
+    devoluci\xF3n y/o reclamaci\xF3n:\n\nUsted deber\xE1 presentar la factura original
+    o copia.\nQue el material sea producto de l\xEDnea (no se aceptan saldos o descontinuados).\nEl
+    material deber\xE1 ser entregado por el cliente en la bodega principal.\nLa devoluci\xF3n
+    y/o reclamaci\xF3n no deber\xE1 rebasar 60 d\xEDas de la fecha factura.\nEl material
+    deber\xE1 estar en perfecto estado y en su empaque original.\nEl material no deber\xE1
+    mostrar se\xF1ales de haberse instalado.\nEl material a devolver no debe ser mayor
+    al 5% del material facturado por partida.\nNOTA: Conserve su factura hasta terminar
+    su obra para futuras compras.\nNo recomendamos instalaciones de loseta a 'hueso'
+    (sin separaci\xF3n entre una pieza y otra) en ning\xFAn caso.\n\nSi Usted piensa
+    instalar loseta en albercas, fachadas, sobre superficies met\xE1licas, madera,
+    tablaroca o yeso favor de pedir asesor\xEDa a su vendedor Interceramic ya que
+    en estos casos se requiere productos de instalaci\xF3n especiales."
+--- !u!114 &11499682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: 0
+  m_PreferredWidth: 809.6307
+  m_PreferredHeight: 100
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!222 &22224524
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155346}
+--- !u!222 &22242014
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101112}
+--- !u!222 &22252226
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195224}
+--- !u!222 &22273550
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107402}
+--- !u!222 &22278954
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193924}
+--- !u!222 &22299564
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142744}
+--- !u!224 &22421150
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 22459900}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22431116
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 22497482}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22456610
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 22476378}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 404.93964, y: 1330}
+  m_SizeDelta: {x: 650, y: 170}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22459900
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 22421150}
+  m_Father: {fileID: 22461028}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -0.0013427734, y: -26}
+  m_SizeDelta: {x: 809, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!224 &22461028
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 22459900}
+  m_Father: {fileID: 22476378}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -177}
+  m_SizeDelta: {x: 0, y: -382}
+  m_Pivot: {x: 0, y: 1}
+--- !u!224 &22476378
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 22456610}
+  - {fileID: 22461028}
+  - {fileID: 22497482}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 4990, y: 1999.9999}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22497482
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 22431116}
+  m_Father: {fileID: 22476378}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 99}
+  m_SizeDelta: {x: 650, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 107402}
+  m_IsPrefabParent: 1

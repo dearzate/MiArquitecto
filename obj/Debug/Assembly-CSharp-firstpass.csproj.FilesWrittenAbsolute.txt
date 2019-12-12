@@ -1,0 +1,17 @@
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/arnaudPro/Desktop/MiArquitecto/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/arnaudPro/Desktop/MiArquitecto/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/UnityEngine.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/UnityEditor.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Mono.Cecil.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Unity.DataContract.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/arnaudPro/Desktop/MiArquitecto/Temp/bin/Debug/Mono.Cecil.Mdb.dll

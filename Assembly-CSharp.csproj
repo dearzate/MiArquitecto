@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1307737C-9110-9680-1AD0-435ADBDFF504}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Accessibility" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GameGroups.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AccessToken.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventParameterName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\CallbackManager.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\JsBridge.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\ComponentFactory.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Constants.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSettings.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookUnityPlatform.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FB.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IPayFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodArguments.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodCall.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\FBJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IIOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\IEditorWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockShareDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppReqeustResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppRequestResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IInternalResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ILoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IPayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\LoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\PayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultContainer.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\FacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\IFacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\Utilities.cs" />
+     <Compile Include="Assets\Plugin Kevin\PluginCredorApps\Scripts\ScriptFotosNativo.cs" />
+     <Compile Include="Assets\Reporter\MultiKeyDictionary.cs" />
+     <Compile Include="Assets\Reporter\Reporter.cs" />
+     <Compile Include="Assets\Reporter\ReporterGUI.cs" />
+     <Compile Include="Assets\Reporter\ReporterMessageReceiver.cs" />
+     <Compile Include="Assets\Reporter\Test\Rotate.cs" />
+     <Compile Include="Assets\Reporter\Test\TestReporter.cs" />
+     <Compile Include="Assets\Scripts\AndreScripts.cs" />
+     <Compile Include="Assets\Scripts\Capturas.cs" />
+     <Compile Include="Assets\Scripts\clsAES128.cs" />
+     <Compile Include="Assets\Scripts\clsAESWebPay.cs" />
+     <Compile Include="Assets\Scripts\Comentario.cs" />
+     <Compile Include="Assets\Scripts\CuestionarioData.cs" />
+     <Compile Include="Assets\Scripts\DragCorrector.cs" />
+     <Compile Include="Assets\Scripts\Encuesta.cs" />
+     <Compile Include="Assets\Scripts\Espacios.cs" />
+     <Compile Include="Assets\Scripts\Estilos.cs" />
+     <Compile Include="Assets\Scripts\ExpandView.cs" />
+     <Compile Include="Assets\Scripts\Factura.cs" />
+     <Compile Include="Assets\Scripts\Fotos.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\FBLogin.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\FirstTimeRunning.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\LoadingManager.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\LogInResponse.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\RegisterResponse.cs" />
+     <Compile Include="Assets\Scripts\InterceramicScripts\TestEmail.cs" />
+     <Compile Include="Assets\Scripts\LogIn.cs" />
+     <Compile Include="Assets\Scripts\Lugar.cs" />
+     <Compile Include="Assets\Scripts\OpcionMultiple.cs" />
+     <Compile Include="Assets\Scripts\Productos.cs" />
+     <Compile Include="Assets\Scripts\RectTransformExtensions.cs" />
+     <Compile Include="Assets\Scripts\Registrar.cs" />
+     <Compile Include="Assets\Scripts\SampleCustomHeader.cs" />
+     <Compile Include="Assets\Scripts\SampleWebView.cs" />
+     <Compile Include="Assets\Scripts\SchemeController.cs" />
+     <Compile Include="Assets\Scripts\Tamano.cs" />
+     <Compile Include="Assets\Scripts\TecladoManager.cs" />
+     <Compile Include="Assets\Scripts\Texturas.cs" />
+     <Compile Include="Assets\Scripts\Tipos.cs" />
+     <Compile Include="Assets\Scripts\TutorialView.cs" />
+     <Compile Include="Assets\Scripts\View.cs" />
+     <Compile Include="Assets\Scripts\ViewsManager.cs" />
+     <Compile Include="Assets\Scripts\WebPay\AESCrypto.cs" />
+     <Compile Include="Assets\Scripts\WebPay\Clases.cs" />
+     <Compile Include="Assets\Scripts\WebPay\ConsultasAPI.cs" />
+     <Compile Include="Assets\Scripts\WebPay\NewWebPay.cs" />
+     <Compile Include="Assets\Scripts\WebPayView.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Demo\NativeGalleryDemo.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\Android\AndroidGallery.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\EditorGalleryUI.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\iOS\UIImagePicker.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\NativeGallery.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\NativeGalleryController.cs" />
+     <Compile Include="Assets\Tastybits\NativeGallery\Scripts\Utils\NativeGallery+Utils.cs" />
+     <Compile Include="Assets\UniAndroidPermission\UniAndroidPermission.cs" />
+     <Compile Include="Assets\UniWebView\Demo\1.Basic\TopSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\2.UseWithCode\UseWithCodeSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\3.LocalHTML\LocalHTMLSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\4.SizeAndTransition\SizeAndTransitionSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\5.CallbackFromWeb\CallbackFromWebSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\6.RunJavaScriptInWeb\RunJavaScriptInWebSceneManager.cs" />
+     <Compile Include="Assets\UniWebView\Demo\Common\Navigator.cs" />
+     <Compile Include="Assets\UniWebView\Script\Helper\UniWebViewHelper.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebView.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewEdgeInsets.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewMessage.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewOrientation.cs" />
+     <Compile Include="Assets\UniWebView\Script\UniWebViewTransitionEdge.cs" />
+     <None Include="Assets\Plugins\UnityPurchasing\Android\proguard-user.txt.OPTIONAL.txt" />
+     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
+     <None Include="Assets\StreamingAssets\build_info.txt" />
+     <None Include="Assets\UniWebView\ChangeLog.txt" />
+     <None Include="Assets\UniAndroidPermission\AndroidManifest-uniRP.xml" />
+     <None Include="Assets\Tastybits\NativeGallery\Manifest\AndroidManifest.xml" />
+     <None Include="Assets\UniWebView\Readme.txt" />
+     <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+     <None Include="Assets\Tastybits\NativeGallery\Docs\README.txt" />
+     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="ChannelPurchase">
+ <HintPath>/Users/sokolabs/Desktop/Unity2017/MiArquitecto/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+ </Reference>
+ <Compile Include="Assets\Scripts\Compras.cs" />
+ <Compile Include="Assets\Scripts\PdfData.cs" />
+ <Compile Include="Assets\Scripts\Models\Proposal.cs" />
+ <Compile Include="Assets\Scripts\Models\Proposals.cs" />
+ <Compile Include="Assets\Scripts\Models\PaymentTicket.cs" />
+ <Compile Include="Assets\Scripts\Models\PdfState.cs" />
+ <Compile Include="Assets\Scripts\Models\UnityPaymentReceipt.cs" />
+ <Compile Include="Assets\Scripts\Models\InvoiceData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{010C8CF7-528A-5107-FE21-C8172F900650}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{7F9E9460-0CE8-1512-095F-754310F3CE68}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
